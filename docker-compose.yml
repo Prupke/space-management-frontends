@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  nodejs:
+    container_name: smf-nodejs
+    build:
+      context: ./
+      dockerfile: "./docker/nodejs/Dockerfile"
+      args:
+        - BUILD_UID=${DOCKER_UID}
+        - BUILD_GID=${DOCKER_GID}
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html:cached
+      - ./node_modules:/var/www/html/node_modules:delegated
