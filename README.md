@@ -2,6 +2,32 @@
 
 Frontends for the [Space Management]() tool built for KA-Huis.
 
+## Setup
+
+### Docker setup
+
+Run the setup script first:
+
+```bash
+./setup.sh
+```
+
+This will setup the docker containers.
+
+Then you can access the Nodejs service and run the compiler (Laravel Mix).
+
+```bash
+docker-comppose exec nodejs sh
+```
+
+Then you can run any command, for example:
+
+```bash
+yarn dev
+
+yarn watch
+```
+
 ## Credits
 
 * **Joey Vonck** - _Creator_ - [joeyvonck](https://github.com/joeyvonck)
