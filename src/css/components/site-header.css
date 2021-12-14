@@ -1,0 +1,10 @@
+.site-header {
+    background-color: #fff;
+    border-bottom: 2px solid rgb(102, 102, 102);
+}
+
+.site-header .logo {
+    border: 2px solid rgb(31, 83, 75);
+}
+
+

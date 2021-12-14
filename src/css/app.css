@@ -1,7 +1,13 @@
 @import "generic.css";
 
+@import "components/container.css";
 @import "components/form.css";
 @import "components/login.css";
 @import "components/button.css";
+@import "components/page-wrapper.css";
+@import "components/site-header.css";
+@import "components/welcome-message.css";
+@import "components/keuze-menu.css";
+@import "components/news.css";
 
 @import "utilities/text-align.css";

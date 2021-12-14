@@ -3,14 +3,19 @@
     display: block;
     box-sizing: border-box;
     background-color: rgb(118, 23, 206);
+    text-decoration: none;
     color: white;
     padding: 10px 0;
     border: 1px solid rgb(76, 5, 143);
     border-radius: 3px;
 }
 
-btn-primary:hover,
-btn-primary:focus {
+.btn-primary:hover,
+.btn-primary:focus {
     border: 1px solid rgb(81, 4, 153);
-    background-color: rgb(100, 0, 194)
+    background-color: rgb(100, 0, 194);
+}
+
+.button-big {
+    font-size: 20px;
 }

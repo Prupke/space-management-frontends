@@ -1,40 +1,72 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>KA-Huis Dashboard</title>
-        <link rel="stylesheet" href="css/generic.css">
-        <link rel="stylesheet" href="css/components/dashboard.css">
-    </head>
-    
-    <body>
-        <div class="container">
-            <header class="Titel">
-                <h1><img src="images/logo.jpg" alt="KA-Huis Logo"> KA-Huis Portaal  </h1>
-            </header>
-    
-            <div class="welkom">
+<head>
+    <meta charset="utf-8">
+    <title>KA-Huis Dashboard</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="../src/css/components/dashboard.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="page-wrapper">
+        <header class="site-header">
+            <h1><img src="images/logo.jpg" alt="KA-Huis Logo" class="logo"> KA-Huis Portaal </h1>
+        </header>
+
+        <main>
+            <div class="welcome-message text-center">
                 <h3>Welkom "Username"</h3> <!-- Hier dient de gebruikersnaam van de ingelogde persoon te staan-->
                 <p><img src="images/KA-Huis.jpg" alt="Het KA-Huis"></p>
             </div>
-    
-            <div class="Keuzemenu">
-                <nav>
-                    <ul class="group">
-                        <li><a href="calendar.html">Agenda</a></li>
-                        <li><a href="KA-Huis Reparatie.html">Reparatie</a></li>
-                    </ul>
-                </nav>
-            </div>
             
-            <div class="Laatste-nieuws">
-                <h4>Laatste Nieuws</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </div>
-        </div>
+            <nav class="keuze-menu">
+                <a href="calendar.html" class="btn-primary button-big keuze-menu-item text-center">Agenda</a>
+                <a href="KA-Huis Reparatie.html" class="btn-primary button-big keuze-menu-item text-center">Reparatie</a>
+            </nav>
 
-    </body>
+            <div class="news Laatste-nieuws">
+                <article class="news-card">
+                    <h1 class="title">Laatste Nieuws</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et
+                        dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                        ea
+                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit
+                        anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex
+                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                        eu
+                        fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit
+                        anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex
+                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                        eu
+                        fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit
+                        anim id est laborum.
+                    </p>
+                </article>
+            </div>
+
+        </main>
+    </div>
+</div>
+
+</body>
 </html>

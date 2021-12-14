@@ -1,0 +1,17 @@
+.welcome-message{
+    margin-bottom: 40px;
+}
+
+.welcome-messageh3 {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    text-align: left;
+    border-bottom: 2px solid rgb(102, 102, 102);
+}
+
+.welcome-messageimg {
+    width: 95%;
+    height: auto;
+    text-align: center;
+}
