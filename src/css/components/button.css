@@ -1,0 +1,16 @@
+.btn-primary {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: rgb(118, 23, 206);
+    color: white;
+    padding: 10px 0;
+    border: 1px solid rgb(76, 5, 143);
+    border-radius: 3px;
+}
+
+btn-primary:hover,
+btn-primary:focus {
+    border: 1px solid rgb(81, 4, 153);
+    background-color: rgb(100, 0, 194)
+}

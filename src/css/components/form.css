@@ -1,0 +1,22 @@
+label.hidden-label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+input.form-control {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    border: 1px solid rgba(61, 60, 61, 0.664);
+    outline: none;
+}
+
+input.form-control:focus {
+    border: 2px solid rgba(156, 13, 161, 0.973);
+    box-shadow: inset 2px 2px 2px rgba(231, 143, 243, 0.87);
+}
