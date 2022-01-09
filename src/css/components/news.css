@@ -1,0 +1,17 @@
+/*.Laatste-nieuws{*/
+/*    border-top: 2px solid rgb(102, 102, 102);*/
+/*    border-bottom: 2px solid rgb(102, 102, 102);*/
+/*}*/
+
+.news {
+    padding: 0 40px;
+}
+
+.news .news-card {
+    background-color: #3f3e3e38;
+    padding: 14px;
+}
+
+.news .news-card .title {
+    margin: 0 0 16px 0;
+}
