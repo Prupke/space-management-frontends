@@ -9,5 +9,9 @@
 @import "components/welcome-message.css";
 @import "components/keuze-menu.css";
 @import "components/news.css";
+@import "components/reservation.css";
+@import "change-reservations.css";
+@import "delete-reservations.css";
+@import "delete-confirm.css";
 
 @import "utilities/text-align.css";

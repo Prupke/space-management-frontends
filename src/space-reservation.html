@@ -3,14 +3,15 @@
     <head>
         <meta charset="utf-8">
         <title>KA-Huis Reservering maken</title>
+        <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" href="css/generic.css">
         <link rel="stylesheet" href="css/components/reservation-system.css">
     </head>
     <body>
         <div class="container">
-            <Header class="Titel">
-                <h1><img src="images/logo.jpg" alt="KA-Huis Logo"> KA-Huis Portaal</h1>
-            </Header>
+            <header>
+                <h1 class="Titel"><img src="images/KA-Huis Banner.png" alt="KA-Huis Banner"></h1>
+            </header>
 
             <div class="Reservering-maken">
                 <label for="GekozenRuimte">Welke ruimte wilt u reserveren ?</label>
@@ -40,7 +41,6 @@
             <div class="Begintijd">
                 <form>
                     <label for="Begintijd">Kies een begintijd:</label>
-        
                     <input type="time" id="Begintijd" name="Begintijd"
                     min="00:00" max="23:59" required>
                 </form>
@@ -55,6 +55,11 @@
                 </form>
             </div>
     
+            <div class="Reserveringsnaam">
+                <label for="Reserveringsnaam">Titel:</label>
+                <textarea id="Opmerking"></textarea>
+            </div>
+
             <div class="Opmerkingen">
                 <label for="Opmerking">Opmerkingen:</label>
                 <textarea id="Opmerking"></textarea>

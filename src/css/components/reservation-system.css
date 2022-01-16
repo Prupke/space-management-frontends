@@ -2,20 +2,15 @@ html{
     background-color: rgb(255, 255, 255);
 }
 
-img{
-    border: 2px solid rgb(31, 83, 75);
-}
-
 .Titel{
-    background-color: rgb(255, 255, 255);
+    background-color: #f5f5f5;
     text-align: left;
     font-family: "Trebuchet MS";
     font-size: large;
-    border-bottom: 2px solid rgb(102, 102, 102);
 }
 .container{
-    background-color: #ececec;
-    max-width: 500px;
+    background-color: #f5f5f5;
+    max-width: 350px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -24,25 +19,44 @@ img{
 
 .Reservering-maken{
     text-align: center;
-    border-bottom: 2px solid rgb(102, 102, 102);
     margin-top: 5px;
 }
 
-.Conflicten{
-    text-align: center;
-    padding: 20px;
-    border-bottom: 2px solid rgb(102, 102, 102);
+.Datum form{
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.Begintijd form{
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.Eindtijd form{
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.Reserveringsnaam{
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
 }
 
 .Opmerkingen{
-    text-align: center;
-    padding: 20px;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
 }
 
-/*form style*/
-form{
-    background-color: #ececec;
-    padding: 20px 40px;
+.Conflicten{
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+
 }
 
 .Annuleren{
@@ -82,38 +96,4 @@ form{
 .Bevestigen:focus{
     border: 1px solid rgb(2, 92, 22);
     background-color: rgb(10, 122, 34);
-}
-
-input[type="Date"],
-input[type="Time"]{
-    width: 100%;
-    display: block;
-    box-sizing: border-box;
-    padding: 0 10px;
-    height: 40px;
-    border: 1px solid rgba(61, 60, 61, 0.664);
-    outline: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 75%;
-}
-
-input[type="Date"]:focus,
-input[type="Time"]:focus{
-    border: 2px solid rgba(156, 13, 161, 0.973);
-    box-shadow: inset 2px 2px 2px rgba(231, 143, 243, 0.87);
-}
-
-select{
-    -webkit-appearance: none;
-    background-color: white;
-    width: 100%;
-    display: block;
-    box-sizing: border-box;
-    padding: 0 10px;
-    height: 40px;
-    border: 1px solid rgba(61, 60, 61, 0.664);
-    outline: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100%;
-    margin-bottom: 5px;
 }

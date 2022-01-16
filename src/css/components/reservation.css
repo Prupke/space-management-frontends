@@ -1,0 +1,64 @@
+/*.Laatste-nieuws{*/
+/*    border-top: 2px solid rgb(102, 102, 102);*/
+/*    border-bottom: 2px solid rgb(102, 102, 102);*/
+/*}*/
+
+.reservation {
+    padding: 0 40px;
+}
+
+.reservation h1{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 1px;
+}
+
+.reservation p{
+    color: white;
+    font-size: 13px;
+    margin-bottom: 1px;
+}
+
+.reservation .reservation-card1 {
+    background-color: #3f3e3e;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 10px; 
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.reservation .reservation-card1 .reservation-card2 .reservation-card3 .title {
+    margin: 0 0 10px 0;
+}
+
+.reservation .reservation-card2 {
+    background-color: #ff5757;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 10px; 
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/*delete reservation card*/
+.reservation .reservation-card3 {
+    background-color: #3f3e3e38;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 10px; 
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.reservation-card3 h1{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 1px;
+}
+
+.reservation-card3 p{
+    color: black;
+    font-size: 13px;
+    margin-bottom: 1px;
+}

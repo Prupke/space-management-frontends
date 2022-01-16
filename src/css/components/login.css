@@ -1,21 +1,22 @@
 .login-container {
-    max-width: 500px;
+    max-width: 350px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .login-card .login-form {
-    background-color: #ececec;
+    background-color: #f5f5f5;
 }
 
-.login-card header .logo {
-    border: 2px solid rgb(31, 83, 75);
-}
-
-.login-page. header .Titel {
+.login-page header .Titel {
+    max-width: 350px;
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: large;
+}
+
+.Titel img{
+    max-width: 350px;
 }
 
 .login-card .form-row {
@@ -27,22 +28,12 @@
     font-size: small;
 }
 
-
-/*oude code
-.Username-button{
-    background-color: white;
-    padding: 15px;
-    text-align: left;
-    border: 3px solid rgb(31, 83, 75);
-    border-bottom: none;
+.logo{
+    text-align: center;
+    background-color: #f5f5f5;
+    padding-top: 20px;
 }
 
-.Password-button{
-    background-color: white;
-    padding: 15px;
-    text-align: left;
-    border: 3px solid rgb(31, 83, 75);
-    border-top: none;
-    margin-bottom: 15px;
-    }
-    */
+.logo img{
+    border-radius: 50px;
+}

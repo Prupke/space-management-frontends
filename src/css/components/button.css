@@ -2,20 +2,39 @@
     width: 100%;
     display: block;
     box-sizing: border-box;
-    background-color: rgb(118, 23, 206);
+    background-color: #ff5757;
     text-decoration: none;
     color: white;
-    padding: 10px 0;
-    border: 1px solid rgb(76, 5, 143);
-    border-radius: 3px;
+    padding: 15px 0;
+    border: 1px solid #f54949;
+    border-radius: 15px;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    border: 1px solid rgb(81, 4, 153);
-    background-color: rgb(100, 0, 194);
+    border: 1px solid #df4141;
+    background-color: #d83535;
+}
+
+.btn-second {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: #3f3e3e;
+    text-decoration: none;
+    color: white;
+    padding: 15px 0;
+    border: 1px solid #2b2a2a;
+    border-radius: 15px;
+}
+
+.btn-second:hover,
+.btn-second:focus {
+    border: 1px solid #2c2b2b;
+    background-color: #1b1b1b;
 }
 
 .button-big {
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }

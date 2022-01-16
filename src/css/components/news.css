@@ -10,6 +10,7 @@
 .news .news-card {
     background-color: #3f3e3e38;
     padding: 14px;
+    border-radius: 15px;
 }
 
 .news .news-card .title {

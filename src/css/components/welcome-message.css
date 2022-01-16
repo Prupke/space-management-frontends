@@ -1,17 +1,12 @@
-.welcome-message{
-    margin-bottom: 40px;
-}
-
-.welcome-messageh3 {
-    padding-left: 10px;
-    padding-bottom: 10px;
-    font-size: 14px;
+.welcome-message h3 {
+    padding-left: 42px;
+    font-size: 25px;
     text-align: left;
-    border-bottom: 2px solid rgb(102, 102, 102);
+    margin-bottom: 0px;
 }
 
-.welcome-messageimg {
-    width: 95%;
-    height: auto;
-    text-align: center;
+.welcome-message h6 {
+    padding-left: 42px;
+    margin-top: 0px;
+    text-align: left;
 }
