@@ -1,13 +1,12 @@
 import react from 'react';
-import Menu from './components/Menu.js';
-import Header from './components/Header.js';
+import Menu from './components/Menu.js.js';
+import Header from './components/Header.js.js';
 import './App.css';
 
 function AddReparation() {
     return (
       <div className="App">
-      <Header />
-      <Menu />
+   
     </div>
     );
   }
